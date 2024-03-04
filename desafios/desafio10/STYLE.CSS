@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url("arquivos/fontes/halloeuroboy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'androidtitulo';
+    src: url("arquivos/fontes/idroid.otf") format("opentype");
+}
+
+body {
+    background-color: #84e0ad;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+}
+
+header {
+    background-image: linear-gradient(to bottom, #33b670, #1e4a32);
+    padding: auto;
+    margin: -32px -10px 0px -10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.466) 
+}
+
+header > h1{
+    text-align: center;
+    color: rgb(255, 253, 253);
+    font-family: 'titulo';
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37) ;
+}
+
+header > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.39);
+}
+
+#titulodapag {
+    font-weight: normal;;
+    font-size: 300%;
+}
+
+header > nav > a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header > nav > a:hover{
+    color: #133020;
+    background-color: #33b670;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+h1, h2{
+    font-family: 'androidtitulo';
+    color: rgb(0, 99, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+#titulosh2 {
+    background-image: linear-gradient(90deg,rgb(181, 223, 181), white);
+    padding-left: 5px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    text-indent: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#Bugdroid{
+    margin-left: 240px;
+}
+
+#video {
+    padding: 20px;
+    background-color: #1b5b3a;
+    margin-left: -20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#quersabermais {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em ;
+    background-color: #2fa864;
+    color: white;
+    text-shadow: none;
+    border-radius: 9px 9px 0px 0px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#listas {
+    background-color: #b7d8c6;
+    margin-top: -30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+#listas > p {
+    padding-top: 15px;
+}
+
+#coluna2 {
+    margin-left: 350px;
+    margin-top: -124px;
+    padding-bottom: 100px;
+}
+
+#coluna2 > abbr, #coluna1 > abbr {
+    border-bottom: 0.1em underline;
+}
