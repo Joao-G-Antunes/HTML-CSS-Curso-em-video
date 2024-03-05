@@ -63,6 +63,7 @@ main {
     width: 800px;
     margin: auto;
     padding: 20px;
+    border-radius: 0px 0px 15px 15px;
     
 }
 
@@ -113,6 +114,8 @@ p {
     margin-top: -30px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 3px;
     
 }
 
@@ -123,9 +126,21 @@ p {
 #coluna2 {
     margin-left: 350px;
     margin-top: -124px;
-    padding-bottom: 100px;
 }
 
 #coluna2 > abbr, #coluna1 > abbr {
     border-bottom: 0.1em underline;
+}
+
+footer {
+    background-color: #133020;
+    color: white;
+    height: 21px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+
+    
 }
