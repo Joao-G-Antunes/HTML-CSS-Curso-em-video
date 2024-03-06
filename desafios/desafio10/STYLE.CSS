@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*fonts*/
 @font-face {
     font-family: 'titulo';
     src: url("arquivos/fontes/halloeuroboy.ttf") format("truetype");
@@ -39,11 +40,13 @@ header > p{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.39);
 }
 
+/*page title*/
 #titulodapag {
     font-weight: normal;;
     font-size: 300%;
 }
 
+/*MENU*/
 header > nav > a{
     margin-left: 10px;
     text-decoration: none;
@@ -56,11 +59,13 @@ header > nav > a:hover{
     background-color: #33b670;
     border-radius: 5px;
     padding: 5px;
+    transition-duration: 0.5s;
 }
 
+/*main content*/
 main {
     background-color: white;
-    min-width: 500px;
+    min-width: 320px;
     max-width: 800px;
     margin: auto;
     padding: 20px;
@@ -74,6 +79,7 @@ h1, h2{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
 }
 
+/*h2 title*/
 #titulosh2 {
     background-image: linear-gradient(90deg,rgb(181, 223, 181), white);
     padding-left: 5px;
@@ -82,19 +88,30 @@ h1, h2{
 p {
     font-family: sans-serif;
     font-size: 0.8em;
+    line-height: 2em;
     text-indent: 2em;
     margin-top: 30px;
     margin-bottom: 30px; 
 }
+
+/*IMAGES */
 #Bugdroid{
-    margin-left: 200px;
-    width: 50%;
-    
+    margin: auto;
+    display: block;
+    width: 300px;
 }
 
 #irina-blok{
     width: 100%;
+    margin: auto;
 }
+
+#dandroids{
+    width: 100%;
+    margin: auto;
+}
+
+/*VIDEO*/
 
 #video {
     padding: 20px;
@@ -116,38 +133,27 @@ p {
     padding-bottom: 15px;
 }
 
-#listas {
-    background-color: #b7d8c6;
-    margin-top: -30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 0px 0px 5px 5px;
-    padding-bottom: 3px;
-    
+#listas{
+    margin-top: -31px;
+    background-color: #84e0ad;
+    border-radius: 0px 0px 10px 10px;
 }
 
-#listas > p {
-    padding-top: 15px;
+#listas >ul{
+    columns: 2;
+
 }
 
-#coluna2 {
-    margin-left: 350px;
-    margin-top: -124px;
+#listas > p{
+    padding: 10px;
 }
 
-#coluna2 > abbr, #coluna1 > abbr {
-    border-bottom: 0.1em underline;
-}
-
-footer {
+footer > p{
     background-color: #133020;
     color: white;
-    height: 21px;
-    margin-top: 40px;
-    text-align: center;
-    margin-left: -8px;
-    margin-right: -8px;
     margin-bottom: -10px;
-
-    
+    margin-right: -10px;
+    margin-left: -10px;
+    text-align: center;
 }
+
