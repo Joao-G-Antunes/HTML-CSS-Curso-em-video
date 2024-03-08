@@ -19,7 +19,6 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #33b670, #1e4a32);
-    padding: auto;
     margin: -32px -10px 0px -10px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -71,6 +70,24 @@ main {
     padding: 20px;
     border-radius: 0px 0px 15px 15px;
     text-align: justify;
+    padding-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(72, 167, 72);
+    font-weight: bolder;
+}
+
+a.externo {
+    background-color: #a1f3c7;
+    color: rgb(0, 56, 0);
+    font-weight: bold;
+    padding: 2px;
+}
+
+a.externo::after {
+    content:' 🔗';
 }
 
 h1, h2{
@@ -114,12 +131,12 @@ p {
 /*VIDEO*/
 
 div.video {
-    background-color: #133020;
+    background-color: #1c5c39;
     margin: -20px;
     padding: 20px;
     padding-right: -20px ;
-    height: 560px;
-    
+    height: 432px;
+    margin-top: 30px;
     position: relative;
 }
 
@@ -142,21 +159,27 @@ div.video > iframe {
     padding-left: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-top: 30px;
 }
 
 #listas{
     margin-top: -31px;
-    background-color: #84e0ad;
+    background-color: #c5ead6;
     border-radius: 0px 0px 10px 10px;
 }
 
 #listas >ul{
     columns: 2;
-
+list-style-type: '✔️';
 }
 
 #listas > p{
     padding: 10px;
+}
+
+#final {
+    margin-bottom: -35px;
+    
 }
 
 footer > p{
