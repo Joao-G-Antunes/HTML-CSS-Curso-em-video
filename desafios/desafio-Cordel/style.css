@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*PAGE TITLE*/
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    margin: 0px;
+    font-variant: small-caps;
+    font-family: 'Passion One';  
+}
+
+header > p {
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+header > p > a, footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+/*MAIN CONTENT*/
+main {
+    font-family: 'Sriracha';
+}
+
+section > p {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 1.5em;
+}
