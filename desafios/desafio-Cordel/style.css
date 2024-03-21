@@ -36,14 +36,63 @@ header > p > a, footer > p > a {
     font-weight: bolder;
 }
 
+header > p > a:hover, footer > p > a:hover  {
+    text-decoration: underline;
+}
+
 /*MAIN CONTENT*/
 main {
     font-family: 'Sriracha';
 }
 
-section > p {
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+
+section.texto {
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+/*IMAGE SECTIONS*/
+section.imagem > p {
+    display: inline-block;
+    color: white;
+    padding: 100px;
+    padding-left: 10px;
+    background-color: rgba(31, 31, 31, 0.685);
+    text-shadow: 1px 1px 0px black;;
+    text-align: left;
+    padding: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+section#girassol {
+    background-image: url(arquivos/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: inset 15px 15px 100px black;
+}   
+
+section#livro {
+    background-image: url(arquivos/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: inset 15px 15px 100px black;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 0px;
 }
