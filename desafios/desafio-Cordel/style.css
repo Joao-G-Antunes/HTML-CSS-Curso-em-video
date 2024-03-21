@@ -55,8 +55,8 @@ section {
 }
 
 section.texto {
-    padding-bottom: 2vh;
-    padding-top: 2vh;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 /*IMAGE SECTIONS*/
@@ -70,7 +70,6 @@ section.imagem > p {
     text-align: left;
     padding: 10px;
     padding-left: 5px;
-    margin-left: 10px;
 }
 
 section#girassol {
