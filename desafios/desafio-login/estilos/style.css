@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/*Mobile first*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
